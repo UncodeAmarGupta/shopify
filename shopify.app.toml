@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "13dc059301769e9e112c0ce41f030e8e"
+name = "pragmatic-infrastructure-app"
+handle = "pragmatic-infrastructure-app-4"
+application_url = "https://rattler-moving-eagle.ngrok-free.app"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-aede450a.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://rattler-moving-eagle.ngrok-free.app/auth/callback",
+  "https://rattler-moving-eagle.ngrok-free.app/auth/shopify/callback",
+  "https://rattler-moving-eagle.ngrok-free.app/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
