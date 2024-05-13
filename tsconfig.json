@@ -1,5 +1,5 @@
 {
-  "include": ["env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["env.d.ts", "**/*.ts", "**/*.tsx", "app/components/CustomCalledOut.jsx", "app/components/CustomDropZone.jsx", "app/components/CustomResourceList.jsx", "app/components/Placeholder.jsx", "app/routes/app.exportform.jsx", "app/graphql/productsQuery.js", "app/routes/app.exportresult.jsx"],
   "compilerOptions": {
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
     "strict": true,
